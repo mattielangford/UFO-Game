@@ -1,49 +1,87 @@
-# UFO-Game
-Save your friends from invasion by playing 'hangman' against a UFO!
+# Project Title
 
+One Paragraph of project description goes here
 
-├── .gitignore               <- Files that should be ignored by git. Add seperate .gitignore files in sub folders if 
-│                               needed
-├── conda_env.yml            <- Conda environment definition for ensuring consistent setup across environments
-├── LICENSE
-├── README.md                <- The top-level README for developers using this project.
-├── requirements.txt         <- The requirements file for reproducing the analysis environment, e.g.
-│                               generated with `pip freeze > requirements.txt`. Might not be needed if using conda.
-├── setup.py                 <- Metadata about your project for easy distribution.
-│
-├── data
-│   ├── interim_[desc]       <- Interim files - give these folders whatever name makes sense.
-│   ├── processed            <- The final, canonical data sets for modeling.
-│   ├── raw                  <- The original, immutable data dump.
-│   └── temp                 <- Temporary files.
-│
-├── docs                     <- Any specific documentation (try ideally to keep to README.md)
-│   └── process_documentation.md  <- Standard template for documenting process and decisions.
-│
-├── examples                 <- Add folders as needed e.g. examples, eda, use case
-│
-├── extras                   <- Miscellaneous extras.
-│   └── add_explorer_context_shortcuts.reg    <- Adds additional Windows Explorer context menus for starting jupyter.
-│
-├── notebooks                <- Notebooks for analysis and testing
-│   ├── eda                  <- Notebooks for EDA
-│   │   └── example.ipynb    <- Example python notebook
-│   ├── features             <- Notebooks for generating and analysing features (1 per feature)
-│   ├── modelling            <- Notebooks for modelling
-│   └── preprocessing        <- Notebooks for Preprocessing 
-│
-├── src                      <- Code for use in this project.
-│   └── examplepackage       <- Example python package - place shared code in such a package
-│       ├── __init__.py      <- Python package initialisation
-│       ├── examplemodule.py <- Example module with functions and naming / commenting best practices
-│       ├── features.py      <- Feature engineering functionality
-│       ├── io.py            <- IO functionality
-│       └── pipeline.py      <- Pipeline functionality
-│
-└── tests                    <- Test cases (named after module)
-    ├── test_notebook.py     <- Example testing that Jupyter notebooks run without errors
-    ├── examplepackage       <- examplepackage tests
-        ├── examplemodule    <- examplemodule tests (1 file per method tested)
-        ├── features         <- features tests
-        ├── io               <- io tests
-        └── pipeline 
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```
+Give examples
+```
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+```
+Give the example
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
+## Running the tests
+
+Explain how to run the automated tests for this system
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
